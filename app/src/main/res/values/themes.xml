@@ -33,20 +33,23 @@
 
     <!-- Secondary top bar icons theme -->
     <style name="Theme.Aperture.Camera.SecondaryTopBarButton" parent="Theme.Aperture.Camera.SecondaryBarButton">
-        <item name="android:layout_width">96dp</item>
-        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">72dp</item>
+        <item name="android:layout_height">64dp</item>
         <item name="android:hyphenationFrequency">normal</item>
-        <item name="android:maxLines">3</item>
-        <item name="android:paddingHorizontal">0dp</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:typeface">monospace</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingHorizontal">4dp</item>
+        <item name="android:paddingVertical">6dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.02</item>
     </style>
 
     <!-- Secondary bottom bar icons theme -->
     <style name="Theme.Aperture.Camera.SecondaryBottomBarButton" parent="Theme.Aperture.Camera.SecondaryBarButton">
-        <item name="android:layout_width">48dp</item>
-        <item name="android:layout_height">48dp</item>
-        <item name="android:padding">4dp</item>
+        <item name="android:layout_width">52dp</item>
+        <item name="android:layout_height">52dp</item>
+        <item name="android:padding">6dp</item>
     </style>
 
     <!-- Info chip -->

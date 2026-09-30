@@ -9,4 +9,10 @@
     <color name="dark_grey">#FF444444</color>
     <color name="yellow">#E9B650</color>
     <color name="rec_red">#FFE95950</color>
+
+    <!-- Viewfinder glass / scrim tokens -->
+    <color name="camera_scrim_bottom">#D9000000</color>
+    <color name="camera_glass">#40282C2C</color>
+    <color name="camera_glass_stroke">#33FFFFFF</color>
+    <color name="camera_mode_pill">#CC1C1B1F</color>
 </resources>
